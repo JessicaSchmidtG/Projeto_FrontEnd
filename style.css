@@ -10,8 +10,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(255, 0, 0);
-    /* font-family: 'Dancing Script', cursive; */
+    background: rgb(253,0,0);
+    background: linear-gradient(90deg, rgba(253,0,0,1) 0%, rgba(255,28,28,1) 50%, rgba(244,208,208,1) 100%);
     font-family: 'Playpen Sans', cursive;
   }
   
@@ -28,7 +28,7 @@
     right: 0;
   }
   .progress--bar {
-    background-color: rgb(255, 255, 255);
+    background: #ffffff;
     height: 100%;
     transition: all ease 0.5s;
   }
@@ -52,10 +52,10 @@
     display: flex;
     align-items: center;
     height: 40px;
-    background-color: rgb(128, 128, 128);
+    background-color: rgb(210, 208, 208);
     border-radius: 10px;
     margin-bottom: 5px;
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
     cursor: pointer;
   }
@@ -68,18 +68,19 @@
     border-radius: 15px;
     margin-left: 5px;
     margin-right: 10px;
-    background-color: rgb(0, 128, 0);
-    color: rgb(238, 130, 238);
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
   }
   
   
   .option:hover {
-    background-color: rgb(0, 0, 255) ;
+    background-color: rgb(255, 255, 255);
   }
   
   
   .scoreArea {
-    background-color:#fff ;
+    background: rgb(253,0,0);
+    background: linear-gradient(90deg,rgba(244,208,208,1) 0%, rgba(255,28,28,1) 50%,  rgba(253,0,0,1) 100%);
     padding: 20px;
     border-radius: 20px;
     margin: 10px;
@@ -87,31 +88,31 @@
   }
   .prizeImage {
     width: auto;
-    height: 100px;
+    height: 200px;
     margin-bottom: 10px;
   }
   .scoreText1 {
-    color: rgb(255, 255, 0);
+    color: rgb(0, 0, 0);
     font-size: 23px;
     font-weight: bold;
     margin-bottom: 10px;
   }
   .scorePct {
-    color: rgb(255, 165, 0);
+    color: rgb(6, 6, 6);
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 10px;
   }
   .scoreText2 {
     font-size: 16px;
-    color: rgb(0, 255, 255);
+    color: rgb(4, 4, 4);
     margin-bottom: 10px;
   }
   
   .scoreArea button {
     border: 0;
     border-radius: 10px;
-    background-color: rgb(17, 71, 17) ;
+    background-color: rgb(255, 255, 255) ;
     color: rgb(0, 0, 0) ;
     padding: 10px;
     margin-top: 20px;
@@ -119,12 +120,12 @@
   }
   
   .scoreArea button:hover {
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(199, 68, 68); 
   }
 
   
   footer {
     margin-top: 20px;
-    color: rgb(128, 0, 128) ;
+    color: rgb(0, 0, 0) ;
     font-size: 13px;
   }
